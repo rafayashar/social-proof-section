@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body {
+    font-family: 'Spartan', sans-serif ;
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.top {
+    display: flex;
+    margin: 10rem;
+    gap: 15rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-right, .top-left {
+    flex: 1;
+}
+
+.p-1 {
+    margin-right: 80px;
+    margin-left: -80px;
+}
+
+.p-2 {
+    margin-right: 40px;
+    margin-left: -40px;
+}
+
+.top-left p {
+    color: hsl(303, 10%, 53%);
+    margin: 0px;
+}
+
+.top-right p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.top-right p span {
+    padding: 0px 43px;
+    background-image: url(images/icon-star.svg);
+    background-repeat: repeat-x;
+    margin: 0px 20px 0px 10px;
+}
+
+.bottom {
+    display: flex;
+    gap: 5rem;
+    margin: 10rem;
+    justify-content: space-between;
+}
+
+.bottom div {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom img {
+    border-radius: 50%;
+    width: auto;
+    height: 40px;
+}
+
+.bottom div div {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    align-items: center;
+    gap: 24px;
+}
+
+.bottom div div div {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+}
+
+.bottom div div div p {
+    margin: 0px;
+}
+
+.div-2 {
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.div-3 {
+    margin-top: 80px;
+    margin-bottom: -80px;
+}
+
+.bot-p1-1, .bot-p2-1, .bot-p2-1 {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.bot-p1-2, .bot-p2-2, .bot-p3-2 {
+    color: hsl(333, 80%, 67%)
+}
